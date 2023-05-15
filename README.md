@@ -106,20 +106,4 @@ simply leave only the first line of the ```rule all``` rule uncommented
 
 [KronaTools](https://github.com/marbl/Krona)
 
-### Making a GitHub repo 
-
-1. Open a terminal or command prompt and navigate to the local directory where you want to create the repository.
-2. Run the command git init to initialize the local directory as a Git repository.
-3. Run the command git add . to add all files in the local directory to the repository.
-4. Run the command git commit -m "Initial commit" to commit the added files to the repository with a message "Initial commit".
-5. Go to GitHub and create a new repository by clicking the "+" button in the top right corner and select "New repository"
-6. Give your repository a name, and select "Create repository"
-7. In the next page, you'll see the commands to push an existing repository from the command line
-```git remote add origin https://github.com/username/repositoryname.git```
-```git push -u origin master```
-8. Run the above commands in your local machine where you initialized the repository.
-9. Your local repository is now pushed to your GitHub repository, and you should be able to see your files on the GitHub website.
-
-
-
 
